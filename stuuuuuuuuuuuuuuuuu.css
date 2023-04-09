@@ -1,0 +1,103 @@
+/* Reset de estilos por defecto del navegador */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos de la barra de navegación */
+  .encabezado {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .titulo {
+    font-size: 24px;
+    margin-right: auto;
+  }
+  
+  .navegacion {
+    display: flex;
+    align-items: center;
+  }
+  
+  .lista-navegacion {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .lista-navegacion li {
+    margin-right: 20px;
+  }
+  
+  .lista-navegacion li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos de la sección de inicio */
+  .seccion-inicio {
+    background-color: #f0f0f0;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .subtitulo {
+    font-size: 36px;
+  }
+  
+  .descripcion {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .boton-enlace {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  /* Estilos de la sección de películas */
+  .seccion-peliculas {
+    padding: 45px ;
+  }
+  
+  .titulo-seccion {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 2px;
+  }
+  
+  .peliculas-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .pelicula {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  
+
+
+  
