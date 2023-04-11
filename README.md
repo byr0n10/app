@@ -9,7 +9,7 @@
 <body>
   <div class="container">
     <h1>Iniciar Sesión</h1>
-    <form action="stile.html">
+    <form action="perfiles.html">
       <input type="text" placeholder="Usuario">
       <input type="password" placeholder="Contraseña">
       <button type="submit">Iniciar Sesión</button>
