@@ -1,9 +1,4 @@
-/* Reset de estilos por defecto del navegador */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-  }
-  
+
   /* Estilos generales */
   body {
     font-family: Arial, sans-serif;
@@ -57,12 +52,7 @@ body, h1, h2, h3, p, ul, li {
   .subtitulo {
     font-size: 36px;
   }
-  
-  .descripcion {
-    margin-top: 20px;
-    font-size: 18px;
-  }
-  
+
   .boton-enlace {
     display: inline-block;
     margin-top: 20px;
